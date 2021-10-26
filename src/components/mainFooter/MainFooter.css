@@ -1,0 +1,23 @@
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 0 40px;
+}
+
+.main-footer__media-list {
+    display: flex;
+}
+
+.media-list__item {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: red;
+    margin-right: 24px;
+}
+
+.media-list__item:last-child {
+    margin-right: 0;
+}
